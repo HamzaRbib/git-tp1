@@ -1,0 +1,15 @@
+body {
+    width: fit-content;
+    margin: auto; 
+}
+
+.question{
+    background-color: rgba(43, 192, 226, 0.905);
+    border-radius: 3px;
+    border-left: 5px solid red;
+    padding: 5px;
+}
+
+.statement::before{
+    content: url(res/question-mark.png);
+}
