@@ -3,7 +3,7 @@ body {
     margin: auto; 
 }
 
-.question{
+.statement{
     background-color: rgba(43, 192, 226, 0.905);
     border-radius: 3px;
     border-left: 5px solid red;
@@ -12,4 +12,14 @@ body {
 
 .statement::before{
     content: url(res/question-mark.png);
+}
+
+.response::first-letter{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 2px;
+}
+
+.response{
+    margin: 2px;
 }
